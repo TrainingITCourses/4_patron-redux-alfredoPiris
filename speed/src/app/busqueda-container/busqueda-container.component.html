@@ -1,0 +1,11 @@
+<p>
+  <app-busqueda-agencias-presenter
+    (busqueda)="metodoBusqueda($event)"
+    (busquedaA)="metodoBusquedaAgencias($event)"
+    (busquedaM)="metodoBusquedaMisiones($event)"
+    (busquedaE)="metodoBusquedaEstados($event)"
+  ></app-busqueda-agencias-presenter>
+  <app-resultado-busqueda-agencias-presenter
+    [resultado] = "resultado"
+  ></app-resultado-busqueda-agencias-presenter>
+</p>

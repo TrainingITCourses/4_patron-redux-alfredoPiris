@@ -1,0 +1,6 @@
+<p>
+  <input #busqueda type="text" (keyup)="onKey($event)">
+  <input type="button" value ="Agencias" (click)="busquedaAgencias(busqueda.value)">
+  <input type="button" value ="TipoMision" (click)="busquedaMisionEstado(busqueda.value)">
+  <input type="button" value ="EstadoVuelo" (click)="busquedaVueloEstado(busqueda.value)">
+</p>
